@@ -1,0 +1,106 @@
+.workQueue {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: var(--color-surface);
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tab {
+  padding: 8px 16px;
+  font-weight: 500;
+  border-radius: 999px;
+  background-color: var(--color-surface-alt);
+  color: var(--color-text-secondary);
+  transition: var(--transition);
+}
+.tab:hover {
+  background-color: var(--color-hover-bg);
+}
+.active {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+.table {
+  width: 100%;
+  margin-top: 16px;
+  border-collapse: collapse;
+}
+small {
+  color: var(--color-text-subtle);
+}
+thead th {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 12px 8px;
+  background-color: var(--color-input-bg);
+  color: var(--color-text-subtle);
+}
+tbody td {
+  padding: 14px 14px;
+  border-bottom: 1px solid var(--color-hover-bg);
+  vertical-align: middle;
+}
+.initials {
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  width: 32px;
+  height: 32px;
+  font-size: 12px;
+  margin-right: 8px;
+  background: linear-gradient(216deg, #1e40af 0%, rgba(30, 64, 175, 0.3) 100%);
+}
+.status {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 4px;
+  text-transform: capitalize;
+}
+.new {
+  background-color: var(--color-primary);
+}
+.pendingreview {
+  background-color: var(--color-warning);
+}
+.completed {
+  background-color: var(--color-success);
+}
+tbody tr:nth-child(even) {
+  background-color: var(--color-input-bg);
+  border-top: 1px solid var(--color-hover-bg);
+  border-bottom: 1px solid var(--color-hover-bg);
+}
+.dots {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid var(--color-text);
+  background-color: var(--color-input-bg);
+  color: var(--color-text);
+  transition: var(--transition);
+}
