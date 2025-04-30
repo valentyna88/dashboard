@@ -2,8 +2,34 @@
   --font-family: 'Inter', sans-serif;
 
   --color-bg: #121622;
-  --color-surface: #2a2a2d;
+  --color-surface: #1e2233;
+  --color-surface-alt: #0c0f17;
+  --color-deep-surface: #232838;
+  --color-dark-blue: #041b2e;
+  --color-border: #313b54;
+  --color-overlay: rgba(30, 64, 175, 0.3);
+
   --color-text: #e5e7eb;
+  --color-text-subtle: #94a3b8;
+  --color-text-muted: rgba(148, 163, 184, 0.5);
+
+  --color-primary: #3b82f6;
+  --color-primary-dark: #1e40af;
+  --color-primary-light: rgba(90, 137, 215, 0.2);
+
+  --color-success: #3bb979;
+  --color-warning: #fdd261;
+  --color-danger: #b93b3b;
+  --color-danger-dark: #cc0101;
+
+  --color-tab-bg: #07090d;
+  --color-input-bg: #252a3d;
+  --color-input-border: #313853;
+  --color-placeholder: #596275;
+  --color-hover-bg: #293245;
+  --color-light-border: rgba(89, 98, 117, 0.5);
+
+  --color-light: #f5f7fa;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
