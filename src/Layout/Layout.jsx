@@ -8,13 +8,15 @@ const Layout = () => {
   const [activeTab, setActiveTab] = useState('Dashboard');
 
   return (
-    <Container>
+    <>
       <Header />
-      <NavigationBar activeTab={activeTab} setActiveTab={setActiveTab} />
-      <main>
-        <Outlet context={{ activeTab, setActiveTab }} />
-      </main>
-    </Container>
+      <Container>
+        <NavigationBar activeTab={activeTab} setActiveTab={setActiveTab} />
+        <main>
+          <Outlet context={{ activeTab, setActiveTab }} />
+        </main>
+      </Container>
+    </>
   );
 };
 
