@@ -1,5 +1,5 @@
 import { useNavigate, useLocation } from 'react-router-dom';
-import sprite from '../../assets/symbol-defs.svg';
+import sprite from '../../assets/sprite.svg';
 import css from './NavigationBar.module.css';
 
 const tabs = [
