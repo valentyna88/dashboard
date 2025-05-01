@@ -29,8 +29,10 @@ const AccountPage = () => {
         Dashboard // Accounts // <span>{account.name}</span>
       </p>
 
-      <AccountSummaryCard account={account} />
-      <AttentionBanner />
+      <div className={css.wrapper}>
+        <AccountSummaryCard account={account} />
+        <AttentionBanner />
+      </div>
       <PerformanceMetrics />
     </div>
   );
