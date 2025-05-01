@@ -2,10 +2,13 @@
   padding: 0.5rem 1rem;
   border-radius: 999px;
   border: none;
-  background-color: #1e2233;
-  color: #596275;
+  background-color: var(--color-surface);
+  color: var(--color-text);
   width: 479px;
   padding: 17px;
+}
+.input::placeholder {
+  color: var(--color-placeholder);
 }
 @media screen and (max-width: 768px) {
   .input {
