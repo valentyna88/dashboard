@@ -1,0 +1,12 @@
+.breadcrumb {
+  font-size: 0.875rem;
+  color: var(--color-text);
+  margin-bottom: 1.5rem;
+}
+.breadcrumb span {
+  color: var(--color-primary);
+}
+.wrapper {
+  display: flex;
+  margin-bottom: 24px;
+}
