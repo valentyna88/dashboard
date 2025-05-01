@@ -1,0 +1,142 @@
+.section {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: var(--color-surface);
+}
+.title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.topRow {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.card {
+  flex: 1;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: var(--color-input-bg);
+}
+.label {
+  font-size: 20px;
+  white-space: nowrap;
+}
+.score {
+  font-size: 28px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.positionBar {
+  margin-top: 8px;
+}
+.positionBar span {
+  font-size: 12px;
+}
+.positionFill {
+  height: 21px;
+  margin-top: 4px;
+  background: linear-gradient(270deg, #3b82f6 0%, rgba(59, 130, 246, 0) 100%);
+  border-radius: 8px;
+}
+.metricGrid {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.metricCard {
+  flex: 1;
+  padding: 24px;
+  background-color: var(--color-input-bg);
+  border-radius: 16px;
+}
+.metricHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.icon {
+  fill: currentColor;
+}
+.metricList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.metricItem {
+  display: grid;
+  grid-template-columns: 32px 1fr 60px;
+  align-items: center;
+  gap: 12px;
+}
+.index {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid currentColor;
+}
+.barWrapper {
+  grid-column: 2 / span 2;
+  height: 20px;
+  border-radius: 8px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.bar {
+  height: 100%;
+  border-radius: 8px;
+}
+.value {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: auto;
+}
+.gain .index {
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+.loss .index {
+  border-color: var(--color-warning);
+  color: var(--color-warning);
+}
+.recommendations {
+  background-color: var(--color-input-bg);
+  border-radius: 16px;
+  padding: 24px;
+}
+.recoHeading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--color-success);
+}
+.recoBlock {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 16px;
+}
+.recoTitle {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.recoText {
+  color: var(--color-placeholder);
+}
+.btn {
+  font-weight: 500;
+  border-radius: 45px;
+  width: 177px;
+  height: 48px;
+  background-color: var(--color-success);
+}

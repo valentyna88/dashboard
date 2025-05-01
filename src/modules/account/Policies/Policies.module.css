@@ -12,6 +12,7 @@ h2 {
   flex-wrap: wrap;
   padding: 1rem;
   border-radius: 16px;
+  box-shadow: 0 0 0 1px var(--color-border);
   background-color: var(--color-surface);
 }
 .card {
@@ -23,41 +24,21 @@ h2 {
   flex-direction: column;
   gap: 6px;
   background-color: var(--color-input-bg);
-  box-shadow: 0 0 0 1px var(--color-border);
 }
-
 .header {
   display: flex;
   align-items: center;
   gap: 8px;
   margin-bottom: 4px;
 }
-
 .icon {
   flex-shrink: 0;
 }
-
 .title {
   font-weight: 600;
   font-size: 16px;
 }
-
 .text {
   font-size: 14px;
   color: var(--color-text-muted);
-}
-.blue {
-  fill: #3b82f6;
-}
-.green {
-  fill: #10b981;
-}
-.purple {
-  fill: #8b5cf6;
-}
-.yellow {
-  fill: #facc15;
-}
-.red {
-  fill: #ef4444;
 }
