@@ -1,0 +1,28 @@
+.docsBox {
+  border-radius: 16px;
+  padding: 24px;
+  flex: 1;
+  background: var(--color-surface);
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+.docsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.docsHeader a {
+  font-size: 14px;
+  color: var(--color-primary);
+}
+.docsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+.docsList li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
