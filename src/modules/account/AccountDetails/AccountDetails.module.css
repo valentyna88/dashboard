@@ -1,0 +1,36 @@
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.wrapper {
+  display: flex;
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px var(--color-border);
+  background-color: var(--color-surface);
+}
+.sidebar {
+  width: 350px;
+  background-color: var(--color-surface);
+  padding: 20px;
+  border-radius: 16px;
+}
+.groupActive {
+  padding: 1rem;
+  border-radius: 16px;
+  background-color: var(--color-input-bg);
+}
+.count {
+  color: var(--color-text);
+  border: 1px solid var(--color-text);
+}
+.groupTitle span {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background-color: var(--color-input-bg);
+}
+.active {
+  color: var(--color-primary);
+}
