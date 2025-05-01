@@ -6,6 +6,8 @@ import AttentionBanner from '../modules/account/AttentionBanner/AttentionBanner'
 import PerformanceMetrics from '../modules/account/PerformanceMetrics/PerformanceMetrics';
 import AccountSummaryCard from '../modules/account/AccountSummary/AccountSummaryCard';
 import Policies from '../modules/account/Policies/Policies';
+import AccountStatus from '../modules/account/AccountStatus/AccountStatus';
+import ComplianceDocumentation from '../modules/account/ComplianceDocumentation/ComplianceDocumentation';
 import css from './AccountPage.module.css';
 
 const AccountPage = () => {
@@ -36,6 +38,10 @@ const AccountPage = () => {
       </div>
       <PerformanceMetrics />
       <Policies />
+      <div className={css.sideBlocks}>
+        <AccountStatus />
+        <ComplianceDocumentation />
+      </div>
     </div>
   );
 };
