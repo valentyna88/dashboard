@@ -2,6 +2,9 @@ export const accounts = [
   {
     id: 'namex-tech',
     name: 'NAMEX Tech Solutions',
+    underwriter: 'Kate Johnson',
+    accountNumber: '54383',
+    address: '425 Harbor Boulevard, Suite 300, Seattle, WA 98104',
     type: 'Large Enterprise',
     line: 'D&O Liability',
     broker: 'Willis Towers',
@@ -21,6 +24,9 @@ export const accounts = [
   {
     id: 'alliance-healthcare',
     name: 'Alliance Healthcare Systems',
+    underwriter: 'Kate Johnson',
+    accountNumber: '54383',
+    address: '425 Harbor Boulevard, Suite 300, Seattle, WA 98104',
     type: 'Mid-Market',
     line: 'Medical Malpractice',
     broker: 'Aon Risk',
@@ -40,6 +46,9 @@ export const accounts = [
   {
     id: 'maritime-logistics',
     name: 'Maritime Logistics Corp',
+    underwriter: 'Kate Johnson',
+    accountNumber: '54383',
+    address: '425 Harbor Boulevard, Suite 300, Seattle, WA 98104',
     type: 'Shipping/Logistics',
     line: 'Marine Cargo',
     broker: 'Marsh McLennan',
@@ -59,6 +68,9 @@ export const accounts = [
   {
     id: 'greenfield-energy',
     name: 'GreenField Energy Ltd',
+    underwriter: 'Kate Johnson',
+    accountNumber: '54383',
+    address: '425 Harbor Boulevard, Suite 300, Seattle, WA 98104',
     type: 'Energy Sector',
     line: 'Environmental Liability',
     broker: 'Aon Risk',

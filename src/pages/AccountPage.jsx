@@ -26,7 +26,7 @@ const AccountPage = () => {
   return (
     <div className={css.container}>
       <p className={css.breadcrumb}>
-        Dashboard / Accounts // <span>{account.name}</span>
+        Dashboard // Accounts // <span>{account.name}</span>
       </p>
 
       <AccountSummaryCard account={account} />
