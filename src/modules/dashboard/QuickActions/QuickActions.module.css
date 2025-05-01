@@ -1,0 +1,26 @@
+.quickActions {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: var(--color-surface);
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.button {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 999px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
