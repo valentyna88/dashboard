@@ -1,0 +1,35 @@
+.statusBox {
+  border-radius: 16px;
+  padding: 24px;
+  flex: 1;
+  background: var(--color-surface);
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.steps {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-width: 75px;
+}
+.icon {
+  margin-bottom: 4px;
+}
+.line {
+  position: absolute;
+  top: 12px;
+  left: 45px;
+  width: 50px;
+  height: 0;
+  border-top: 2px dashed var(--color-success);
+  z-index: 1;
+}
