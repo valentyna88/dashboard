@@ -5,6 +5,7 @@ import { accounts } from '../data/accounts';
 import AttentionBanner from '../modules/account/AttentionBanner/AttentionBanner';
 import PerformanceMetrics from '../modules/account/PerformanceMetrics/PerformanceMetrics';
 import AccountSummaryCard from '../modules/account/AccountSummary/AccountSummaryCard';
+import Policies from '../modules/account/Policies/Policies';
 import css from './AccountPage.module.css';
 
 const AccountPage = () => {
@@ -34,6 +35,7 @@ const AccountPage = () => {
         <AttentionBanner />
       </div>
       <PerformanceMetrics />
+      <Policies />
     </div>
   );
 };
