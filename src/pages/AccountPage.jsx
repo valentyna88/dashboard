@@ -9,6 +9,7 @@ import Policies from '../modules/account/Policies/Policies';
 import AccountStatus from '../modules/account/AccountStatus/AccountStatus';
 import ComplianceDocumentation from '../modules/account/ComplianceDocumentation/ComplianceDocumentation';
 import css from './AccountPage.module.css';
+import AccountDetails from '../modules/account/AccountDetails/AccountDetails';
 
 const AccountPage = () => {
   const { id } = useParams();
@@ -42,6 +43,7 @@ const AccountPage = () => {
         <AccountStatus />
         <ComplianceDocumentation />
       </div>
+      <AccountDetails />
     </div>
   );
 };
