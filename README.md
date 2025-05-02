@@ -1,12 +1,67 @@
-# React + Vite
+# 🧪 Dashboard (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
 
-Currently, two official plugins are available:
+This project is a responsive dashboard and account management interface based on
+provided screenshots.  
+The application includes multiple reusable components, uses mock data in JSON
+format, and demonstrates a clean, modular code structure.  
+Built with **React (Vite)** and deployed online using **Azure Static Web Apps**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗
+[View deployed app on Azure](https://proud-grass-065040010.6.azurestaticapps.net)  
+🔗 [GitHub Repository](https://github.com/valentyna88/dashboard)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React (with Vite)
+- React Router DOM
+- CSS Modules
+- Mock data (JSON/JS)
+- Azure Static Web Apps (free hosting)
+- GitHub for CI/CD integration
+
+## 💡 Features
+
+### 📊 Dashboard Page:
+
+- Navigation bar with active tab highlighting
+- **Work Queue**: tab switching and task table
+- **Portfolio Goals**: circular progress indicators
+- **Quick Actions**: functional buttons
+- **Market Intelligence**: news item list
+- **My Accounts Table**: filters, statuses, colored badges
+
+### 🧾 Account Page:
+
+- Header with account name and details
+- **Performance Metrics** section
+- **Policies** block with icons and premium values
+- **Account Status & Compliance** tracker
+- **Winnability**: score, charts, and AI recommendations
+- **Communication**: message blocks with replies and attachments
+- **Policies Table**: detailed, scrollable, with totals
+
+## 🧠 Interactivity
+
+- Tab switching with state handling
+- Highlighting active elements
+- Additional information shown on icon click
+- Data displayed dynamically from mock files
+
+## 🛠 How to Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## 👩‍💻 Author
+
+Created by Valentyna Taranchuk
+
+- GitHub: https://github.com/valentyna88
+
+- Gmail: valyataranchuk8@gmail.com
