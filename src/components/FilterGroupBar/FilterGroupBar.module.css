@@ -1,0 +1,27 @@
+.controls {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+.controls input {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-hover-bg);
+  color: var(--color-white);
+}
+.actions {
+  display: flex;
+  gap: 12px;
+}
+.actions .btn {
+  padding: 7px 31px;
+  border-radius: 999px;
+  font-weight: 500;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  transition: background-color var(--transition);
+}
+.btn:hover {
+  background-color: var(--color-hover-bg);
+}
