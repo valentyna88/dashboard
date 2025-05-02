@@ -1,20 +1,14 @@
 import { messages } from '../../../data/messages';
 import sprite from '../../../assets/sprite.svg';
 import css from './Communication.module.css';
+import FilterGroupBar from '../../../components/FilterGroupBar/FilterGroupBar';
 
 const Communication = () => {
   return (
     <section className={css.communication}>
       <h2>Communication</h2>
       <div className={css.wrapper}>
-        <div className={css.controls}>
-          <input type="text" placeholder="Search" />
-          <div className={css.actions}>
-            <button className={css.btn}>Filter</button>
-            <button className={css.btn}>Group</button>
-          </div>
-        </div>
-
+        <FilterGroupBar />
         <div className={css.grid}>
           <div className={css.column}>
             {messages
