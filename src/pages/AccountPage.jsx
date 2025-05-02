@@ -10,6 +10,7 @@ import AccountStatus from '../modules/account/AccountStatus/AccountStatus';
 import ComplianceDocumentation from '../modules/account/ComplianceDocumentation/ComplianceDocumentation';
 import AccountDetails from '../modules/account/AccountDetails/AccountDetails';
 import Communication from '../modules/account/Communication/Communication';
+import PoliciesTable from '../modules/account/PoliciesTable/PoliciesTable';
 import css from './AccountPage.module.css';
 
 const AccountPage = () => {
@@ -46,6 +47,7 @@ const AccountPage = () => {
       </div>
       <AccountDetails />
       <Communication />
+      <PoliciesTable />
     </div>
   );
 };
